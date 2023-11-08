@@ -36,15 +36,18 @@
         
     </div>
 
+    <form action="genere">
+
     <label for="genere">Scegliere un genere:</label>
-    <div>
-        <input type="radio" id="genere" value="1">
-        <label for="genere">M</label>
-        <input type="radio" id="genere" value="2">
-        <label for="genere">F</label>
-        <input type="radio" id="genere" value="3">
-        <label for="genere"> preferisco non specificare</label>
-    </div>
+        <div>
+            <input type="radio" id="genere" value="1">
+            <label for="genere">M</label>
+            <input type="radio" id="genere" value="2">
+            <label for="genere">F</label>
+            <input type="radio" id="genere" value="3">
+            <label for="genere"> preferisco non specificare</label>
+        </div>
+    </form>
 
     <div>
         <label for="interessi">Scegli un interresse</label>
@@ -59,10 +62,12 @@
         <input type="file" id="file" name="file">
     </div>
 
-    <label for="date">Data compilazione</label>
+    <form>
+        <label for="date">Data compilazione</label>
     <input type="date">
     <button>invio</button>
-    <input type="reset" name="" id="">
+    <button>reset</button>
+    </form>
 
 </body>
 </html>
