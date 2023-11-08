@@ -18,7 +18,7 @@
     <input placeholder="Cognome" type="text" name="Cognome">
 
     <div>
-        <label for="mail">email</label>
+        <label for="mail">@email:</label>
         <input placeholder="@mail" type="email">
     </div>
 
@@ -26,13 +26,37 @@
         <label for="freetext">scrivi un messaggio</label>
         <input placeholder="scrivi qualcosa" type="text">
 
-        <select name="motivo contatto" id="">
+        <label for="motivo_contatto">motivo contatto</label>
+        <select name="motivo_contatto" id="">
             <option value="">vuoto</option>
             <option value="Domanda">Domanda</option>
             <option value="Feedback">Feedback</option>
             <option value="segnal bug">Segnalazione bug</option>
         </select>
         
+    </div>
+
+    <label for="genere">Scegliere un genere:</label>
+    <div>
+        <input type="radio" id="genere" value="HTML">
+        <label for="genere">M</label>
+        <input type="radio" id="genere" value="HTML">
+        <label for="genere">F</label>
+        <input type="radio" id="genere" value="HTML">
+        <label for="genere"> preferisco non specificare</label>
+    </div>
+
+    <div>
+        <label for="interessi">Scegli un interresse</label>
+        <select name="interessi" id="">
+            <option value="">vuoto</option>
+            <option value="Domanda">Sport</option>
+            <option value="Feedback">Musica</option>
+            <option value="segnal bug">Cinema</option>
+            <option value="segnal bug">Arte</option>
+        </select>
+        <label for="file">scegli file</label>
+        <input type="file" id="file" name="file">
     </div>
 
     <button> invio </button>
