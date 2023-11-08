@@ -1,0 +1,11 @@
+progetto RICETTE INTERNAZIONALI
+creare un sito di ricette 
+la home è strutturata:
+    titollo centrale 
+    barra di navigazionecon i seguenti campi:
+    tipo di piatto | nazione | ricette 
+paragrafo descrittivo della missione del sito
+paragrafo descrittivo della raccolta 
+piede paggina:
+    contatti, ammininstrazione, social, diritti
+    
