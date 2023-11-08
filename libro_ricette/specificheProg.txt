@@ -1,11 +1,53 @@
 progetto RICETTE INTERNAZIONALI
-creare un sito di ricette 
+creare un sito di ricette
+
+HOME 
 la home è strutturata:
     titollo centrale 
     barra di navigazionecon i seguenti campi:
-    tipo di piatto | nazione | ricette 
+    tipo di piatto | nazione | ricette | ricerca ingrediente
 paragrafo descrittivo della missione del sito
 paragrafo descrittivo della raccolta 
 piede paggina:
     contatti, ammininstrazione, social, diritti
+
+le altre pagine del libro saranno le ricette 
+per ogni ricetta una pagina.
+
+RICETTA
+la pag di una ricetta in maniera 
+generale è composta da:
+    nome ricetta
+    storia della ricetta 
+    tipo piatto
+    ingredienti
+    preparazioni
+
+
+LISTA RICETTE
+    ITALIA
+        ant pasto:
+
+        primi:
+
+        secondi:
+
+        dolci:
     
+    COLOMBIA:
+        ant pasto:
+
+        primi:
+
+        secondi:
+
+        dolci:
+
+    GUINEA:
+        ant pasto:
+
+        primi:
+
+        secondi:
+
+        dolci:
