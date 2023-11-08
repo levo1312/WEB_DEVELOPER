@@ -1,0 +1,41 @@
+<!--
+     Creare un form che permetta all'utente di inserire NOME,
+     EMAIL, MESSAGGIO + pulsante d'invio 
+    -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lezione 3</title>
+</head>
+<body>
+    <h2>Esercizio sui Form</h2>
+    <label for="nome">Nome:</label>
+    <input placeholder="nome" type="text" name="nome">
+    <label for="cognome">Cognome:</label>
+    <input placeholder="Cognome" type="text" name="Cognome">
+
+    <div>
+        <label for="mail">email</label>
+        <input placeholder="@mail" type="email">
+    </div>
+
+    <div>
+        <label for="freetext">scrivi un messaggio</label>
+        <input placeholder="scrivi qualcosa" type="text">
+
+        <select name="motivo contatto" id="">
+            <option value="">vuoto</option>
+            <option value="Domanda">Domanda</option>
+            <option value="Feedback">Feedback</option>
+            <option value="segnal bug">Segnalazione bug</option>
+        </select>
+        
+    </div>
+
+    <button> invio </button>
+
+</body>
+</html>
