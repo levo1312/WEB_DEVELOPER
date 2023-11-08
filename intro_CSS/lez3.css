@@ -1,0 +1,43 @@
+/*
+il comando più
+preciso vince sul generico
+tag + attributi(class)-->specifico
+tag --> generico
+sintassi comandi:
+    tag{
+        chiave: valore;
+    }
+*/
+h2{
+    color:aquamarine;
+}
+
+/*
+sintassi classe:
+    .nomeclass{
+        chiave: valore;
+    }
+*/
+.ciol{
+    color: blueviolet;
+}
+
+body{
+    background-color: yellow;
+}
+
+div{
+    width: 300px;
+    height: 300px;
+    /*display: inline-block;*/
+}
+
+#red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}

@@ -1,0 +1,73 @@
+<!--
+     Creare un form che permetta all'utente di inserire NOME,
+     EMAIL, MESSAGGIO + pulsante d'invio 
+    -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lezione 3</title>
+</head>
+<body>
+    <h2>Esercizio sui Form</h2>
+    <label for="nome">Nome:</label>
+    <input placeholder="nome" type="text" name="nome">
+    <label for="cognome">Cognome:</label>
+    <input placeholder="Cognome" type="text" name="Cognome">
+
+    <div>
+        <label for="mail">@email:</label>
+        <input placeholder="@mail" type="email">
+    </div>
+
+    <div>
+        <label for="freetext">scrivi un messaggio</label>
+        <input placeholder="scrivi qualcosa" type="text">
+
+        <label for="motivo_contatto">motivo contatto</label>
+        <select name="motivo_contatto" id="">
+            <option value="">vuoto</option>
+            <option value="Domanda">Domanda</option>
+            <option value="Feedback">Feedback</option>
+            <option value="segnal bug">Segnalazione bug</option>
+        </select>
+        
+    </div>
+
+    <form action="genere">
+
+    <label for="genere">Scegliere un genere:</label>
+        <div>
+            <input type="radio" id="genere" value="1">
+            <label for="genere">M</label>
+            <input type="radio" id="genere" value="2">
+            <label for="genere">F</label>
+            <input type="radio" id="genere" value="3">
+            <label for="genere"> preferisco non specificare</label>
+        </div>
+    </form>
+
+    <div>
+        <label for="interessi">Scegli un interresse</label>
+        <select name="interessi" id="">
+            <option value="">vuoto</option>
+            <option value="Domanda">Sport</option>
+            <option value="Feedback">Musica</option>
+            <option value="segnal bug">Cinema</option>
+            <option value="segnal bug">Arte</option>
+        </select>
+        <label for="file">scegli file</label>
+        <input type="file" id="file" name="file">
+    </div>
+
+    <form>
+        <label for="date">Data compilazione</label>
+    <input type="date">
+    <button>invio</button>
+    <button>reset</button>
+    </form>
+
+</body>
+</html>
