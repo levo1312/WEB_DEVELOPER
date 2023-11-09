@@ -1,0 +1,47 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: black;
+}
+
+.logo{
+
+    background-color: aquamarine;
+    background-image: url(" https://th.bing.com/th/id/OIP.b7kHWasR35pU1no1bjZ--QHaEN?pid=ImgDet&rs=1 ");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    width: 200px;  /*larghezza*/
+    height: 200px;  /*altezza*/
+    color: blueviolet;  /*colore text*/
+    /*text-aling: center;*/   /*centra il testo in alto*/
+    
+    /*centra il testo rispetto un contenitore*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid green;
+
+}
+
+.container{
+
+    background-image: url(" https://th.bing.com/th/id/OIP.lMBoHHLPCvR3MqZamkeCOAHaFj?pid=ImgDet&rs=1 ");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    /*centra rispeto al contenitore*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid aquamarine;
+
+}
+
