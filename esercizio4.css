@@ -6,17 +6,82 @@
 /*classi*/
 
 
+
+
+.box{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+
+
+}
+.colR{
+
+}
+
+.boxar{
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+
+}
+
+.colAR{
+    margin-left: 220px;
+    
+}
+
+.boxver{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+
+.boxbl{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+.boxba{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+}
+
+.contenitore{
+    background-color: #f4f4f4;
+}
+
+/*down{
+    background-color: black;
+    height: 400;
+    text-align: center;
+}*/
+
 /*tag*/
 
 
 /*sezioni pag*/
 header{
     background-color: #f4f4f4;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 100px;
+    
 }
-body{
+main{
     background-color: #f4f4f4;
+    padding-top: 200px;
+
 }
 
 footer{
     background-color: black;
+    left: 0;
+    height: 400px;
+    color: #f4f4f4;
+    text-align: center;
 }
