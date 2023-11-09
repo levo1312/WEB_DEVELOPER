@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*classi*/
+
+
+/*tag*/
+
+
+/*sezioni pag*/
+header{
+    background-color: #f4f4f4;
+}
+body{
+    background-color: #f4f4f4;
+}
+
+footer{
+    background-color: black;
+}
