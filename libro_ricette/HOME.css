@@ -8,3 +8,14 @@ body{
     background-color: black;
     color: yellow;
 }
+.container{
+    display: flex;
+    justify-content: center;
+}
+/* sistemazioni txt */
+h1{
+    text-align: center;
+    color: aqua;
+}
+
+
