@@ -27,19 +27,29 @@ generale è composta da:
 LISTA RICETTE
     ITALIA
         ant pasto:
+            bruschetta
 
         primi:
+        pasta aglio olio e peperoncino
+        pasta alla carbonara
+        pasta al ragù
 
         secondi:
+        scaloppine di pollo al limone 
 
         dolci:
     
     COLOMBIA:
         ant pasto:
+            empanadas
+            patacones
 
         primi:
+            arroz con pollo
+            arroz misto de mariscos
 
         secondi:
+            igado en cebolla
 
         dolci:
 
