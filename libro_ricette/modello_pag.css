@@ -1,0 +1,40 @@
+/*css reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*tag generali*/
+ul{
+    list-style: none;
+}
+
+
+
+/*sezioni pag*/
+.top{
+    background-color: blueviolet;
+    height: 300px;
+}
+
+.barra{
+    height: 80px;
+    width: 300px;
+    background-color: aquamarine;
+    margin: auto;
+}
+
+.sezione{
+    height: 200px;
+    background-color: goldenrod;
+}
+
+.sezione2{
+    height: 200px;
+    background-color: green;
+}
+
+.down{
+    height: 300px;
+    background-color: black;
+}
