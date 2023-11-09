@@ -21,8 +21,11 @@ b{
 
 ul{
     color: aquamarine;
+    list-style: none;
 }
 
-table{
+.container{
     color: greenyellow;
+    display: flex;
+    justify-content: center;
 }
