@@ -1,0 +1,34 @@
+/*css reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+#immagine-centrata {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vw; /* Adatta la larghezza dell'immagine in base alla larghezza del viewport */
+}
+
+
+@media only screen and (min-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+
+    h1{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+   
