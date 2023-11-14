@@ -1,0 +1,73 @@
+/*css reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*tag*/
+
+
+/*classi*/
+.logho{
+    width: 100px;
+    height: 100px;
+}
+.menu ul {
+    list-style-type: none;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    background-color: blueviolet;
+    flex-direction: column;
+}
+
+/*sezioni pag*/
+body{
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    
+    border: 2px solid green;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    
+}
