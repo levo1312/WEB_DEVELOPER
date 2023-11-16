@@ -1,2 +1,132 @@
 TAILWIND
 
+margini:
+    m-[20px]  =  margin: 20px;
+    mx-[20px]  =  margin: 20px;  sull'asse orizontale 
+    my-[20px]  =  margin: 20px;  sull'asse verticale 
+    mt-[20px]  =  margin-top: 20px;
+    mb-[20px]  =  margin-bottom: 20px;
+    mr-[20px]  =  margin-right: 20px;
+    ml-[20px]  =  margin-left: 20px;
+
+padding: 
+    p-[20px]  =  padding: 20px;
+    px-[20px]  =  asse verticale
+    py-[20px]  =  asse orizzontale
+    pt-[20px]  =  padding-top: 20px;
+    pb-[20px]  =  padding-bottom: 20px;
+    pr-[20px]  =  padding-right: 20px;
+    pl-[20px]  =  padding-left: 20px;
+
+width: 
+    w-[]
+height: 
+    h-[]
+
+
+FLEX:
+    flex  =   display: flex;
+    flex-row  =  flex-direction: riga;
+    flex-row-reverse  =  flex-direction: row-reverse;
+    flex-col  =  flex-direction: collonna;
+    flex-col-reverse  =  flex-direction: col-reverse;
+
+
+JUSTIFY:
+    justify-center  =  justify-content: center;
+    justify-space-between  =  justify-content: space-between;
+    justify-around  =  justify-content: around;
+    justify-start  =  justify-content: start;
+    justify-end  =  justify-content: end;
+
+
+    items-center  =  align-items: center;
+    items-start  = align-items: start;
+    items-end  =  align-items: end;
+
+background-color:
+    bg-colore-500  =  background-colors: colore;
+    bg-red-500  =  background-colors:red;
+
+
+font size:
+    text-xs/sm/lg/xl/
+
+
+
+media qr:
+
+
+APPUNTI SU TAILWIND CSS
+
+---------- MARGINI ------------
+
+m-[20px]        =       margin: 20px;
+my-[20px]       =       asse verticale (top/bottom)
+mx[20px]        =       asse orizzontale (right/left)
+mt-[20px]       =       margin-top: 20px;
+mb-[20px]       =       margin-bottom: 20px;
+mr-[20px]       =       margin-right: 20px;
+ml-[20px]       =       margin-left: 20px;
+
+
+---------- PADDING -------------
+
+p-[20px]        =       padding: 20px;
+py-[20px]       =       asse verticale (top/bottom)
+px-[20px]       =       asse orizzontale (right/left)
+pt-[20px]       =       padding-top: 20px;
+pb-[20px]       =       padding-bottom: 20px;
+pr-[20px]       =       padding-right: 20px;
+pl-[20px]       =       padding-left: 20px;
+
+
+----------- MISURE --------------
+
+
+w-[20px]        =       width: 20px;
+h-[20px]        =       height: 20px;
+----------- FLEX ---------------
+
+flex                    =       display: flex;
+flex-row                =       flex-direction: row;
+flex-row-reverse        =       flex-direction: row-reverse;
+flex-col                =       flex-direction: column;
+flex-col-reverse        =       flex-direction: column-reverse;
+
+
+justify-center          =       justify-content: center;
+justify-between         =       justify-content: space-between;
+justify-around          =       justify-content: space-around;
+justify-start           =       justify-content: flex-start;
+justify-end             =       justify-content: flex-end;
+
+
+items-center            =       align-items: center;
+items-start             =       align-items: flex-start;
+items-end               =       align-items: flex-end;
+
+
+---------- BACKGROUND COLOR ------------
+
+bg-green-500      =        background-color: green;
+bg-red-500        =        background-color: red;
+
+
+---------- MEDIA QUERIES ---------------
+
+sm          =           @media (min-width: 640px) { ... }
+md          =           @media (min-width: 768px) { ... }
+lg          =           @media (min-width: 1024px) { ... }
+xl          =           @media (min-width: 1280px) { ... }
+2xl         =           @media (min-width: 1536px) { ... }
+
+
+----------- FONT SIZE -----------------
+
+text-xs/sm/lg/xl/2xl...[20px]
+
+
+---------- FONT WEIGHT ----------------
+
+font-bold/semibold/light/normal...
